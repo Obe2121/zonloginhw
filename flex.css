@@ -29,12 +29,113 @@ input[type=text], input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-button {
-    background-color: #04AA6D;
-    color: white;
+#button1{
+    background-color: #ff9900;
+    color: black;
     padding: 14px 20px;
     margin: 8px 0;
-    border: none;
+    border: 1px solid;
+    box-shadow: 1px 1px;
     cursor: pointer;
-    width: 100%;
   }
+h2{
+  display:flex;
+  text-align: left;
+  padding:8px;
+  margin:20px;
+  
+}
+#psw{ 
+text-align: left;
+font-size:18px;
+  padding:8px;
+  
+}
+#uname{
+  text-align: left;
+  font-size:18px;
+  padding:15px
+    
+}
+#forgot{
+ display:flex;
+ align-self: flex-end;
+  
+ 
+}
+strike {
+    display: block;
+    text-align: center;
+    overflow: hidden; 
+    
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+    color:lightgrey;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 200px;
+    height: 1px;
+    background:lightgrey;
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+
+
+#button2{
+  display:flex;
+  background-color:lightgrey;
+  color: black;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  align-self: center;
+  border: 1px solid;
+  box-shadow: 1px 1px;
+
+}
+.flex-container1{
+    display: flex;
+        justify-content: center;
+        flex-direction: row;
+      margin:10px;
+}
+#Privacy{
+  Padding:25px
+}
+#Con{
+  Padding:25px
+}
+#help{
+  Padding:25px
+}
+.drop{
+  text-align:left;
+  }
+  .flex-container2{
+    display: flex;
+        justify-content: center;
+        flex-direction: row;
+  }
+  
+  
+    
+  
+    
+
